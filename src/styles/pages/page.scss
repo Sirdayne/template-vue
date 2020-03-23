@@ -1,0 +1,8 @@
+.mod {
+  background: $second;
+  color: $first;
+  text-align: center;
+  h2 {
+    @include Level-1-Left;
+  }
+}

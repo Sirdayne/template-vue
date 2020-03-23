@@ -1,0 +1,15 @@
+.mod {
+  h4 {
+    @include Level-2-Left;
+  }
+
+  .chart-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    .chart-box {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}

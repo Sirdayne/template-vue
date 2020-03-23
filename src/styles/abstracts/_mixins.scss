@@ -1,0 +1,17 @@
+
+/* text */
+@mixin Level-1-Left {
+  font-family: aktiv-grotesk, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: $first;
+}
+
+@mixin Level-2-Left {
+  font-family: aktiv-grotesk, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  color: $first;
+}
